@@ -1,5 +1,5 @@
 .header {
-  background: radial-gradient(circle at center, rgba(109, 109, 255, 0.4), #111);
+  background: radial-gradient(circle at center, rgba(109, 109, 255, 0.2), #111);
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -27,7 +27,11 @@
   margin-bottom: 30px;
 }
 
-.span {
+.span-title {
+  display: block;
+}
+
+.span-subtitle {
   /* display: block; */
 }
 
@@ -46,10 +50,13 @@
 .header__actions {
   display: flex;
   gap: 30px;
-  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .header__link {
+  display: inline-block;
   color: #fff;
   font-weight: 600;
   font-style: SemiBold;
@@ -57,7 +64,7 @@
   line-height: 1;
   text-decoration: none;
   border-bottom: 5px solid;
-  border-image: linear-gradient(to right, #4C1A97, #6D6DFF) 1;
+  border-image: linear-gradient(to right, #4c1a97, #6d6dff) 1;
   padding-bottom: 10px;
 }
 
@@ -66,4 +73,68 @@
   height: 500px;
   border-radius: 10px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  /* Estilos para tablet */
+  .header {
+    padding: 40px 40px 80px;
+  }
+
+  .header__title {
+    font-size: 58px;
+  }
+
+  .span-subtitle {
+    display: block;
+  }
+
+  .header__divider {
+    display: none;
+  }
+
+  .header__image {
+    width: 216px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Estilos para móvil */
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 60px;
+  }
+
+  .header__title {
+    font-size: 36px;
+  }
+
+  .header__subtitle{
+    font-size: 16px;
+  }
+
+  .span-subtitle {
+    display: block;
+  }
+
+  .header__divider {
+    display: none;
+  }
+
+  .header__description{
+    font-size: 16px;
+  }
+
+  .header__actions {
+    flex-direction: column;
+  }
+
+  .header__image {
+    order: -1;
+    width: 280px;
+    height: 280px;
+  }
 }

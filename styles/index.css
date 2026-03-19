@@ -4,8 +4,6 @@
 @import url(./footer.css);
 
 body {
-  min-width: 1100px;
-  max-width: 1600px;
   margin: 0 auto;
   font-family: "Open Sans", "Arial", sans-serif;
   background-color: #111;
@@ -14,10 +12,10 @@ body {
   color: #fff;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px) {
   /* Estilos para tablet */
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   /* Estilos para móvil */
 }
