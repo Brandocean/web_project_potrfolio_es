@@ -92,7 +92,6 @@
 
 .card__title {
   font-weight: 700;
-  font-style: Bold;
   font-size: 24px;
   line-height: 1;
   margin: 0;
@@ -159,7 +158,6 @@
 
   .content__card {
     width: 688px;
-    /* flex-shrink: 0; */
   }
 }
 

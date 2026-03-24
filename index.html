@@ -1,154 +1,240 @@
 <!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandon RZ Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./styles/index.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Brandon RZ Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-  <link rel="stylesheet" href="./styles/index.css" />
+    <!-- Fuente Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fuente Open Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet" />
+    <!-- Fuente Archivo Black -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- Fuente Archivo Black -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet" />
-</head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <h1 class="header__title">
+          <span class="span-title">Brandon</span> Rivera
+        </h1>
 
-<body>
-  <header class="header">
-    <div class="header__content">
-      <h1 class="header__title">
-        <span class="span-title">Brandon</span> Rivera
-      </h1>
+        <p class="header__subtitle">
+          <span class="span-subtitle">Desarrollador Full-Stack Junior</span>
+          <span class="header__divider">|</span>
+          TypeScript, React, Node.js
+        </p>
 
-      <p class="header__subtitle">
-        <span class="span-subtitle">Desarrollador Full-Stack Junior</span>
-        <span class="header__divider">|</span>
-        TypeScript, React, Node.js
-      </p>
+        <p class="header__description">
+          Desarrollador web junior con experiencia práctica creando interfaces
+          limpias y responsivas con HTML, CSS, JavaScript y React, así como
+          implementando lógica básica de back-end. Ha trabajado en proyectos
+          formativos que siguen procesos reales de desarrollo, usando Git,
+          GitHub y Figma. Disfruta colaborar en equipo, mantener un código claro
+          y resolver problemas de forma estructurada.
+        </p>
 
-      <p class="header__description">
-        Desarrollador web junior con experiencia práctica creando interfaces
-        limpias y responsivas con HTML, CSS, JavaScript y React, así como
-        implementando lógica básica de back-end. Ha trabajado en proyectos
-        formativos que siguen procesos reales de desarrollo, usando Git,
-        GitHub y Figma. Disfruta colaborar en equipo, mantener un código claro
-        y resolver problemas de forma estructurada.
-      </p>
-
-      <div>
-        <ul class="header__actions">
-          <li><a href="#" class="header__link">Descargar CV</a></li>
-          <li><a href="#" class="header__link">Enlace a GitHub</a></li>
-          <li><a href="#" class="header__link">Hablemos</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <img src="./images/Linkedin-logo.jpg" alt="Perfil" class="header__image" />
-  </header>
-
-  <main class="content">
-    <div class="content__skills">
-      <h2 class="content__title">Habilidades y herramientas</h2>
-      <div class="content__icons">
-        <img src="./images/html.png" alt="icono HTML" class="content__icon-rectangle" />
-        <img src="./images/css.png" alt="icono CSS" class="content__icon-rectangle" />
-        <img src="./images/js.png" alt="icono JavaScript" class="content__icon-square" />
-        <img src="./images/git.png" alt="icono Git" class="content__icon-square" />
-        <img src="./images/github.png" alt="icono GitHub" class="content__icon-square" />
-        <img src="./images/chatgpt.png" alt="icono Chatgpt" class="content__icon-square" />
-      </div>
-    </div>
-
-    <div class="content__projects">
-      <h2 class="content__title">Proyectos destacados</h2>
-
-      <div class="content__cards">
-        <!-- Card 1 -->
-        <div class="content__card">
-          <div class="card__image-wrapper">
-            <div class="card__tag">
-              <img src="./images/html.png" alt="icono HTML" class="card__tag-icon">
-              <img src="./images/css.png" alt="icono CSS" class="card__tag-icon">
-            </div>
-            <img class="card__image" src="./images/triple-expresso.png" alt="Proyecto" />
-          </div>
-
-          <div class="card__content">
-            <h3 class="card__title">Página web de una cafetería</h3>
-            <p class="card__description">
-              Desarrollo de una landing page responsiva para una cafetería
-              siguiendo un brief de diseño. Incluye estructura semántica,
-              maquetación con Flexbox, creación de secciones nuevas y un
-              formulario de contacto funcional.Logro: Implementé desde cero
-              el diseño completo de la página, organicé el proyecto con buenas
-              prácticas y publiqué la versión final utilizando GitHub Pages.
-            </p>
-
-            <div class="card__links">
-              <a href="#" class="card__link">
-                <img src="./images/link.png" alt="link" class="card__link-image">
-                Demo en vivo
-              </a>
-              <a href="#" class="card__link card__link-github">
-                <img src="./images/github.png" alt="link" class="card__link-image">
-                GitHub
-              </a>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="content__card">
-          <div class="card__image-wrapper">
-            <div class="card__tag">
-              <img src="./images/js.png" alt="icono JavaScript" class="card__tag-icon">
-              <img src="./images/react.png" alt="icono React" class="card__tag-icon">
-            </div>
-            <img class="card__image" src="./images/placeholder-4-photo.png" alt="Proyecto" />
-          </div>
-
-          <div class="card__content">
-            <h3 class="card__title">Mi proyecto</h3>
-            <p class="card__description">
-              Descripción del proyecto
-            </p>
-
-            <div class="card__links">
-              <a href="#" class="card__link">
-                <img src="./images/link.png" alt="link" class="card__link-image">
-                Demo en vivo
-              </a>
-              <a href="#" class="card__link card__link-github">
-                <img src="./images/github.png" alt="link" class="card__link-image">
-                GitHub
-              </a>
-            </div>
-          </div>
+        <div>
+          <ul class="header__actions">
+            <li><a href="#" class="header__link">Descargar CV</a></li>
+            <li><a href="#" class="header__link">Enlace a GitHub</a></li>
+            <li><a href="#" class="header__link">Hablemos</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-  </main>
+
+      <img
+        src="./images/Linkedin-logo.jpg"
+        alt="Perfil"
+        class="header__image"
+      />
+    </header>
+
+    <main class="content">
+      <div class="content__skills">
+        <h2 class="content__title">Habilidades y herramientas</h2>
+        <div class="content__icons">
+          <img
+            src="./images/html.png"
+            alt="icono HTML"
+            class="content__icon-rectangle"
+          />
+          <img
+            src="./images/css.png"
+            alt="icono CSS"
+            class="content__icon-rectangle"
+          />
+          <img
+            src="./images/js.png"
+            alt="icono JavaScript"
+            class="content__icon-square"
+          />
+          <img
+            src="./images/git.png"
+            alt="icono Git"
+            class="content__icon-square"
+          />
+          <img
+            src="./images/github.png"
+            alt="icono GitHub"
+            class="content__icon-square"
+          />
+          <img
+            src="./images/chatgpt.png"
+            alt="icono Chatgpt"
+            class="content__icon-square"
+          />
+        </div>
+      </div>
+
+      <div class="content__projects">
+        <h2 class="content__title">Proyectos destacados</h2>
+
+        <div class="content__cards">
+          <!-- Card 1 -->
+          <div class="content__card">
+            <div class="card__image-wrapper">
+              <div class="card__tag">
+                <img
+                  src="./images/html.png"
+                  alt="icono HTML"
+                  class="card__tag-icon"
+                />
+                <img
+                  src="./images/css.png"
+                  alt="icono CSS"
+                  class="card__tag-icon"
+                />
+              </div>
+              <img
+                class="card__image"
+                src="./images/triple-expresso.png"
+                alt="Proyecto"
+              />
+            </div>
+
+            <div class="card__content">
+              <h3 class="card__title">Página web de una cafetería</h3>
+              <p class="card__description">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional.Logro: Implementé desde cero el
+                diseño completo de la página, organicé el proyecto con buenas
+                prácticas y publiqué la versión final utilizando GitHub Pages.
+              </p>
+
+              <div class="card__links">
+                <a href="#" class="card__link">
+                  <img
+                    src="./images/link.png"
+                    alt="link"
+                    class="card__link-image"
+                  />
+                  Demo en vivo
+                </a>
+                <a href="#" class="card__link card__link-github">
+                  <img
+                    src="./images/github.png"
+                    alt="link"
+                    class="card__link-image"
+                  />
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content__card">
+            <div class="card__image-wrapper">
+              <div class="card__tag">
+                <img
+                  src="./images/js.png"
+                  alt="icono JavaScript"
+                  class="card__tag-icon"
+                />
+                <img
+                  src="./images/react.png"
+                  alt="icono React"
+                  class="card__tag-icon"
+                />
+              </div>
+              <img
+                class="card__image"
+                src="./images/placeholder-4-photo.png"
+                alt="Proyecto"
+              />
+            </div>
+
+            <div class="card__content">
+              <h3 class="card__title">Mi proyecto</h3>
+              <p class="card__description">Descripción del proyecto</p>
+
+              <div class="card__links">
+                <a href="#" class="card__link">
+                  <img
+                    src="./images/link.png"
+                    alt="link"
+                    class="card__link-image"
+                  />
+                  Demo en vivo
+                </a>
+                <a href="#" class="card__link card__link-github">
+                  <img
+                    src="./images/github.png"
+                    alt="link"
+                    class="card__link-image"
+                  />
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer class="footer">
       <h2 class="footer__title">Contacto</h2>
       <p class="footer__mail">student@tripleten.com</p>
       <div class="footer__icons">
-        <img src="./images/linkedIn_icon.png" alt="Linkedin icon" class="footer__icon">
-        <img src="./images/facebook_icon.png" alt="Facebook icon" class="footer__icon">
-        <img src="./images/instagram_icon.png" alt="Instagram icon" class="footer__icon">
-        <img src="./images/x_icon.png" alt="X icon" class="footer__icon">
+        <a href="#">
+          <img
+            src="./images/linkedIn_icon.png"
+            alt="Linkedin icon"
+            class="footer__icon"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="./images/facebook_icon.png"
+            alt="Facebook icon"
+            class="footer__icon"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="./images/instagram_icon.png"
+            alt="Instagram icon"
+            class="footer__icon"
+          />
+        </a>
+        <a href="#">
+          <img src="./images/x_icon.png" alt="X icon" class="footer__icon" />
+        </a>
       </div>
     </footer>
   </body>

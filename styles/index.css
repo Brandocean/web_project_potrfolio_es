@@ -6,7 +6,18 @@
 body {
   margin: 0 auto;
   font-family: "Open Sans", "Arial", sans-serif;
-  background: radial-gradient(circle at 70% 10%,rgba(124,124,255,0.4) 0%, transparent 25%), radial-gradient(circle at 50% 95%,rgba(124,124,255,0.4) 0%, transparent 25%) #111;
+  background:
+    radial-gradient(
+      circle at 70% 10%,
+      rgba(124, 124, 255, 0.4) 0%,
+      transparent 25%
+    ),
+    radial-gradient(
+        circle at 50% 95%,
+        rgba(124, 124, 255, 0.4) 0%,
+        transparent 25%
+      )
+      #111;
   font-size: 16px;
   line-height: 20px;
   color: #fff;
