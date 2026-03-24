@@ -3,7 +3,9 @@
   padding-right: 120px;
 }
 
-.content__skills {}
+/* SKILLS */
+.content__skills {
+}
 
 .content__title {
   font-family: "Archivo Black";
@@ -31,7 +33,10 @@
   height: 50px;
 }
 
-.content__projects {}
+/* PROJECTS */
+
+.content__projects {
+}
 
 .content__cards {
   display: flex;
@@ -45,11 +50,10 @@
   width: 590px;
   /* flex-shrink: 0; */
   flex-direction: column;
-  background: #1C1C1C;
+  background: #1c1c1c;
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
-
 }
 
 .content__card:hover {
@@ -111,7 +115,7 @@
 }
 
 .card__link {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   color: #7c7cff;
   display: flex;
@@ -127,4 +131,95 @@
 .card__link-image {
   width: 20px;
   height: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* Estilos para tablet */
+  .content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .content__icons {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+
+  .content__cards {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .content__card {
+    width: 688px;
+    /* flex-shrink: 0; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Estilos para móvil */
+  .content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .content__title {
+    font-size: 28px;
+  }
+
+  .content__icons {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .content__icon-rectangle {
+    width: 30px;
+    height: 35px;
+  }
+
+  .content__icon-square {
+    width: 30px;
+    height: 30px;
+  }
+
+  .content__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .content__card {
+    width: 280px;
+    /* flex-shrink: 0; */
+  }
+
+  .card__tag {
+    left: 10px;
+    gap: 5px;
+  }
+
+  .card__tag-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .card__image {
+    height: 160px;
+  }
+
+  .card__content {
+    padding: 20px;
+  }
+
+  .card__title {
+    font-size: 20px;
+  }
+
+  .card__description {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 }
