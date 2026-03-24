@@ -1,5 +1,4 @@
 .header {
-  background: radial-gradient(circle at center, rgba(109, 109, 255, 0.2), #111);
   display: flex;
   flex-direction: row;
   gap: 20px;
