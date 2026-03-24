@@ -24,6 +24,10 @@
   color: #6d6dff;
 }
 
+.footer__mail:hover {
+  opacity: 50%;
+}
+
 .footer__icons {
   display: flex;
   gap: 80px;
@@ -32,6 +36,10 @@
 .footer__icon {
   width: 24px;
   height: 24px;
+}
+
+.footer__icon:hover {
+  opacity: 50%;
 }
 
 @media screen and (max-width: 1023px) {

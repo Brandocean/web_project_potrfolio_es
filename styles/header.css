@@ -67,6 +67,10 @@
   padding-bottom: 10px;
 }
 
+.header__link:hover {
+  opacity: 50%;
+}
+
 .header__image {
   width: 387px;
   height: 500px;

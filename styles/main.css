@@ -128,6 +128,10 @@
   gap: 10px;
 }
 
+.card__link:hover {
+  opacity: 50%;
+}
+
 .card__link-github {
   color: #fff;
   opacity: 0.6;
