@@ -40,8 +40,6 @@
 
 .content__cards {
   display: flex;
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
   gap: 20px;
   width: 100%;
   margin-top: 50px;
@@ -51,7 +49,6 @@
   display: flex;
   flex: 1;
   max-width: 590px;
-  /* flex-shrink: 0; */
   flex-direction: column;
   background: #1c1c1c;
   border-radius: 10px;
